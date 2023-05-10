@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/fon">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/glava1"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="2dp"
+                android:backgroundTint="@color/button"
+                android:fontFamily="@font/shrift"
+                android:text="Глава 1"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints"
+                android:textColor="@color/white"/>
+
+            <Button
+                android:id="@+id/glava2"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:backgroundTint="@color/button"
+                android:fontFamily="@font/shrift"
+                android:text="Глава 2"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.508"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/glava1"
+                tools:ignore="MissingConstraints"
+                android:textColor="@color/white"/>
+
+            <Button
+                android:id="@+id/glava3"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:backgroundTint="@color/button"
+                android:fontFamily="@font/shrift"
+                android:text="Глава 3"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.508"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/glava2"
+                tools:ignore="MissingConstraints"
+                android:textColor="@color/white"/>
+
+            <Button
+                android:id="@+id/glava4"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:backgroundTint="@color/button"
+                android:fontFamily="@font/shrift"
+                android:text="Глава 4"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.508"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/glava3"
+                tools:ignore="MissingConstraints"
+                android:textColor="@color/white"/>
+
+            <Button
+                android:id="@+id/glava5"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:backgroundTint="@color/button"
+                android:fontFamily="@font/shrift"
+                android:text="Глава 5"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/glava4"
+                tools:ignore="MissingConstraints"
+                android:textColor="@color/white"/>
+            <Button
+                android:id="@+id/glava6"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:backgroundTint="@color/button"
+                android:fontFamily="@font/shrift"
+                android:text="Глава 6"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/glava4"
+                tools:ignore="MissingConstraints"
+                android:textColor="@color/white"/>
+            <Button
+                android:id="@+id/glava7"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:backgroundTint="@color/button"
+                android:fontFamily="@font/shrift"
+                android:text="Глава 7"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/glava4"
+                tools:ignore="MissingConstraints"
+                android:textColor="@color/white"/>
+            <Button
+                android:id="@+id/glava8"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:backgroundTint="@color/button"
+                android:fontFamily="@font/shrift"
+                android:text="Глава 8"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/glava7"
+                tools:ignore="MissingConstraints"
+                android:textColor="@color/white"/>
+
+            <Button
+                android:id="@+id/glava9"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:backgroundTint="@color/button"
+                android:fontFamily="@font/shrift"
+                android:text="Глава 9"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/glava8"
+                tools:ignore="MissingConstraints"
+                android:textColor="@color/white"/>
+
+            <Button
+                android:id="@+id/glava10"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:backgroundTint="@color/button"
+                android:fontFamily="@font/shrift"
+                android:text="Глава 10"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/glava9"
+                tools:ignore="MissingConstraints"
+                android:textColor="@color/white"/>
+
+            <Button
+                android:id="@+id/glava11"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:backgroundTint="@color/button"
+                android:fontFamily="@font/shrift"
+                android:text="Глава 11"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/glava10"
+                tools:ignore="MissingConstraints"
+                android:textColor="@color/white"/>
+            <Button
+                android:id="@+id/glava12"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:backgroundTint="@color/button"
+                android:fontFamily="@font/shrift"
+                android:text="Глава 12"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/glava4"
+                tools:ignore="MissingConstraints"
+                android:textColor="@color/white"/>
+            <Button
+                android:id="@+id/glava13"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:backgroundTint="@color/button"
+                android:fontFamily="@font/shrift"
+                android:text="Глава 13"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/glava4"
+                tools:ignore="MissingConstraints"
+                android:textColor="@color/white"/>
+            <Button
+                android:id="@+id/glava14"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:backgroundTint="@color/button"
+                android:fontFamily="@font/shrift"
+                android:text="Глава 14"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/glava13"
+                tools:ignore="MissingConstraints"
+                android:textColor="@color/white"/>
+
+            <Button
+                android:id="@+id/glava15"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:backgroundTint="@color/button"
+                android:fontFamily="@font/shrift"
+                android:text="Глава 15"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/glava14"
+                tools:ignore="MissingConstraints"
+                android:textColor="@color/white"/>
+
+            <Button
+                android:id="@+id/glava16"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:backgroundTint="@color/button"
+                android:fontFamily="@font/shrift"
+                android:text="Глава 16"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/glava15"
+                tools:ignore="MissingConstraints"
+                android:textColor="@color/white"/>
+
+            <Button
+                android:id="@+id/glava17"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:backgroundTint="@color/button"
+                android:fontFamily="@font/shrift"
+                android:text="Глава 17"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/glava15"
+                tools:ignore="MissingConstraints"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

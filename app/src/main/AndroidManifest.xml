@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.novella">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Novella"
+        tools:ignore="ExtraText">
+        <activity
+            android:name=".Glava2_7"
+            android:exported="false" />
+        <activity
+            android:name=".Glava2_6_2"
+            android:exported="false" />
+        <activity
+            android:name=".Glava2_6_1"
+            android:exported="false" />
+        <activity
+            android:name=".Glava2_6"
+            android:exported="false" />
+        <activity
+            android:name=".Glava2_5"
+            android:exported="false" />
+        <activity
+            android:name=".Glava2_4_2"
+            android:exported="false" />
+        <activity
+            android:name=".Glava2_4_1"
+            android:exported="false" />
+        <activity
+            android:name=".Glava2_4"
+            android:exported="false" />
+        <activity
+            android:name=".Glava2_3"
+            android:exported="false" />
+        <activity
+            android:name=".Glava2_2_2"
+            android:exported="false" />
+        <activity
+            android:name=".Glava2_2_1"
+            android:exported="false" />
+        <activity
+            android:name=".Glava2_2"
+            android:exported="false" />
+        <activity
+            android:name=".End"
+            android:exported="false" />
+        <activity
+            android:name=".Glava1_6_2"
+            android:exported="false" />
+        <activity
+            android:name=".Glava1_6_1"
+            android:exported="false" />
+        <activity
+            android:name=".Glava1_6"
+            android:exported="false" />
+        <activity
+            android:name=".Glava1_5"
+            android:exported="false" />
+        <activity
+            android:name=".Glava1_4_2"
+            android:exported="false" />
+        <activity
+            android:name=".Glava1_4_1"
+            android:exported="false" />
+        <activity
+            android:name=".Glava1_4"
+            android:exported="false" />
+        <activity
+            android:name=".Ad"
+            android:exported="false" />
+        <activity
+            android:name=".Settings"
+            android:exported="false" />
+
+        <service android:name=".BackgroundMusicService" />
+        <service android:name=".GlavaMusicService" />
+
+        <activity
+            android:name=".Glava1_3"
+            android:exported="false" />
+        <activity
+            android:name=".Glava1_2_3"
+            android:exported="false" />
+        <activity
+            android:name=".Glava1_2_2"
+            android:exported="false" />
+        <activity
+            android:name=".Glava1_2_1"
+            android:exported="false" />
+        <activity
+            android:name=".Glava1_2"
+            android:exported="false" />
+        <activity
+            android:name=".Glava_2"
+            android:exported="false" />
+        <activity
+            android:name=".Glava_1"
+            android:exported="false" />
+        <activity
+            android:name=".ViborGlavi"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
